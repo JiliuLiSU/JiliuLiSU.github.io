@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>调试的第一个OpenCV程序 | 不忘初心</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="本地加载图片并显示  Mat image = imread(“lena.jpg”);namedWindow(“result”, 1);imshow(“result”, image);waitKey(0);">
+  <meta name="description" content="本地加载图片并显示  #include&amp;lt;opencv2/core/core.hpp&amp;gt;#include&amp;lt;opencv2/highgui/highgui.hpp&amp;gt;#include&amp;lt;opencv2/imgproc/imgproc.hpp&amp;gt;#include   using namespace cv;using namespace std;   int main(){&amp;n">
 <meta property="og:type" content="article">
 <meta property="og:title" content="调试的第一个OpenCV程序">
 <meta property="og:url" content="http://yoursite.com/2016/03/18/opencv-demo/index.html">
 <meta property="og:site_name" content="不忘初心">
-<meta property="og:description" content="本地加载图片并显示  Mat image = imread(“lena.jpg”);namedWindow(“result”, 1);imshow(“result”, image);waitKey(0);">
+<meta property="og:description" content="本地加载图片并显示  #include&amp;lt;opencv2/core/core.hpp&amp;gt;#include&amp;lt;opencv2/highgui/highgui.hpp&amp;gt;#include&amp;lt;opencv2/imgproc/imgproc.hpp&amp;gt;#include   using namespace cv;using namespace std;   int main(){&amp;n">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-14T13:37:34.885Z">
+<meta property="og:updated_time" content="2018-11-14T13:47:38.044Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="调试的第一个OpenCV程序">
-<meta name="twitter:description" content="本地加载图片并显示  Mat image = imread(“lena.jpg”);namedWindow(“result”, 1);imshow(“result”, image);waitKey(0);">
+<meta name="twitter:description" content="本地加载图片并显示  #include&amp;lt;opencv2/core/core.hpp&amp;gt;#include&amp;lt;opencv2/highgui/highgui.hpp&amp;gt;#include&amp;lt;opencv2/imgproc/imgproc.hpp&amp;gt;#include   using namespace cv;using namespace std;   int main(){&amp;n">
   
     <link rel="alternative" href="/atom.xml" title="不忘初心" type="application/atom+xml">
   
@@ -180,7 +180,17 @@
       
         <p>本地加载图片并显示</p>
 <blockquote>
-<p>Mat image = imread(“lena.jpg”);<br>namedWindow(“result”, 1);<br>imshow(“result”, image);<br>waitKey(0);</p>
+<p>#include&lt;opencv2/core/core.hpp&gt;<br>#include&lt;opencv2/highgui/highgui.hpp&gt;<br>#include&lt;opencv2/imgproc/imgproc.hpp&gt;<br>#include<iostream></iostream></p>
+</blockquote>
+<blockquote>
+<p>using namespace cv;<br>using namespace std;</p>
+</blockquote>
+<blockquote>
+<p>int main()<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;Mat image = imread(“lena.jpg”);<br>&nbsp;&nbsp;&nbsp;&nbsp;namedWindow(“result”, 1);<br>&nbsp;&nbsp;&nbsp;&nbsp;imshow(“result”, image);<br>&nbsp;&nbsp;&nbsp;&nbsp;waitKey(0);  </p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;return 0;  </p>
+<blockquote>
+<p>}</p>
+</blockquote>
 </blockquote>
 
       
